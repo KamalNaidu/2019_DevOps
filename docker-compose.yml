@@ -17,7 +17,7 @@ services:
       - MYSQL_PASSWORD=devops@123
     ports:
       - "3307:3306"
-    container_name: mysql
+    container_name: mysql_db
     expose:
       - '3306'
       
